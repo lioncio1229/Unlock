@@ -1,0 +1,157 @@
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+    background-image: url("Images/Olinsterg_Logo_Transparent.png");
+    background-size: 100px;
+}
+
+.navTitle{
+    color: #212F6E;
+    font-size: 22px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.container{
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 0px auto;
+}
+
+table tr th, table tr td{
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+table tr:nth-child(even){
+    background-color: #ddb73cec;
+}
+
+table tr:nth-child(odd){
+    background-color: rgba(255, 235, 205, 0.836);
+}
+
+table tr th{
+    background-color: #212F6E;
+    color: white;
+    font-size: 18px;
+}
+
+.remove{
+    width: 160px;
+    height: 30px;
+}
+
+.remove a, .regButton{
+    color: white;
+    text-decoration: none;
+    background-color: #212F6E;
+    font-size: 15px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.regButton{
+    border: 1px solid #212F6E;
+}
+
+.remove a:hover, .regButton:hover{
+    background-color: rgb(245, 69, 0);
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.upload-image-window
+{
+    background-color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.upload-image-panel img
+{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 2px solid #212F6E;
+    object-fit: cover;
+    object-position: center;
+}
+
+.upload-image-panel
+{
+    position: relative;
+    width: 30%;
+
+    top: 22.5%;
+    left: 35%;
+
+    background-color: white;
+    border: 2px solid #212F6E;
+    border-radius: 5px;
+
+    padding: 20px;
+    text-align: center;
+    color: #212F6E;
+    line-height: 10px;
+}
+
+.upload-image-panel form
+{
+    display: block;
+    line-height: 40px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.close-button
+{
+    position: absolute;
+
+    right: 10px;
+    top: 10px;
+    color: #212F6E;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.close-button:hover
+{
+    color: red;
+}
+
+.userName
+{
+    position: relative;
+}
+
+.userName img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: 20px;
+
+    position: absolute;
+    top: 6%;
+    left: 0.4%;
+
+    object-fit: cover;
+    object-position: center;
+}

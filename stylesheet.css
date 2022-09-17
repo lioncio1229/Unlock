@@ -1,0 +1,293 @@
+/* Convet picture pixel to hex link:
+    https://html-color-codes.info/colors-from-image/
+*/
+/* White Background Remover link
+    https://www.remove.bg/upload
+*/
+
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+/* ------------------- Header ------------------- */
+
+.header{
+    background-image: linear-gradient(#212F6E, #2f418d);
+    height: 100px;
+    position: relative;
+}
+
+.olinstergImg{
+    height: 100px;
+    width: auto;
+}
+
+div h1{
+    color: #DDB73C;
+    font-size: 1.5em;
+    position: absolute;
+    top: 30px;
+    left: 130px;
+    user-select: none;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: #212F6E;
+    border-radius: 2px;
+}
+
+/* --------- End of Header ---------*/
+
+/* ------------------- Menu ------------------- */
+
+.menuButton{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+}
+
+.menuButton:hover{
+    filter: drop-shadow(1px 1px #212F6E);
+    filter: drop-shadow(-1px -1px #212F6E);
+    cursor: pointer;
+}
+
+.menu{
+    width: 300px;
+    padding: 10px;
+    line-height: 20px;
+    background-color:#212F6E;
+    border-radius: 5px;
+    border: 1px solid #DDB73C;
+    position: absolute;
+    bottom: 20px;
+    right: 80px;
+    visibility: hidden;
+}
+
+.menu p{
+    user-select: none;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.menu p:hover{
+    background-color: white;
+    color: #212F6E;
+    cursor: pointer;
+}
+
+/* --------- End of Menu ---------*/
+
+/* ------------------- Sidebar ------------------- */
+
+.sidebar{
+    margin-top: 6px;
+    margin-right: 5px;
+    width: 207px;
+    background-color: rgb(241, 241, 241);
+    float: right;
+    clear: right;
+    height: 80vh;
+    overflow: auto;
+}
+
+.sidebar .sidebarTitle{
+    background-color: #DDB73C;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 8px;
+    color: #212F6E;
+    font-size: 18px;
+    user-select: none;
+}
+
+.sidebar .sidebarContent{
+    text-align: center;
+}
+
+.sidebar .sidebarContent a{
+    text-decoration: none;
+    color: #212F6E;
+}
+
+.sidebar .sidebarContent p{
+    margin: 0px;
+    padding: 5px 0px;
+}
+
+/* --------- End of Sidebar ---------*/
+
+/* ------------------- Report Table ------------------- */
+
+.attendanceContainer{
+    height: 80vh;
+    overflow: auto;
+}
+
+.reportTable{
+    background-color: rgb(241, 241, 241);
+    margin-top: 5px;
+    margin-left: 5px;
+    border-collapse: collapse;
+}
+
+.reportTable tr td{
+    color: #212F6E;
+    padding: 8px 0px;
+    width: 228px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.reportTable .firstRow{
+    background-color: #DDB73C;
+}
+
+.reportTable .firstRow td{
+    font-size: 20px;
+}
+
+.des1{
+    background-color: khaki;
+}
+
+.des2{
+    background-color: none;
+}
+
+.tdIcon
+{
+    position: relative;
+}
+
+.icon
+{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #212F6E;
+    border-radius: 50%;
+
+    position: absolute;
+    left: 10px;
+    top: 1px;
+    cursor: pointer;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+#img-icon
+{
+    position: absolute;
+    background-image: url('uploads/default.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #212F6E;
+    border-radius: 50%;
+    top: 100px;
+    left: 5em;
+
+    display: none;
+}
+
+#img-icon:hover
+{
+    border-radius: 5px;
+}
+
+/* --------- End of Report Table ---------*/
+
+.print-property-window
+{
+    background-color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.print-property-window .print-panel
+{
+    position: relative;
+    width: 25%;
+
+    top: 22.5%;
+    left: 35%;
+
+    background-color: white;
+    border: 2px solid #212F6E;
+    border-radius: 5px;
+
+    padding: 25px 5px;
+    text-align: center;
+    color: #212F6E;
+    line-height: 10px;
+}
+
+.print-panel .submit
+{
+    color: white;
+    text-decoration: none;
+    background-color: #212F6E;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid #212F6E;
+}
+
+.print-panel .submit:hover
+{
+    color: #212F6E;
+    background-color: white;
+    border: 1px solid #212F6E;
+    cursor: pointer;
+}
+
+.close-button
+{
+    position: absolute;
+
+    right: 10px;
+    top: 10px;
+    color: #212F6E;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.close-button:hover
+{
+    color: red;
+}
+
